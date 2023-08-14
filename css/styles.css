@@ -1,0 +1,66 @@
+/*Se agrega imagen de fondo*/
+header{
+    background-image: url('../img/fondo.jpg'); 
+    background-size: cover;
+    text-align: center;
+}
+/* Ajusta el tamaño de la imagen */
+.logo {
+    border-radius: 50%;
+    height: 160px;
+    overflow: hidden;
+    width: 150px; 
+}
+
+.name-CV{
+    font-size: 24px; 
+    font-weight: bold;
+}
+/* Tamaño y diseño del botón*/
+.buttom-page{
+    background-color: #C2EFA0;
+    border: none;
+    border-radius: 5px;
+    color: #0D1606;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease;
+}
+/*Tamaño del título*/
+h1{
+    background-color: #C2EFA0;
+    color: #0D1606;
+    font-family: Arial, sans-serif;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+/*Diseño de los subtítulos*/
+h2{
+    background-color: #C2EFA0;
+    color: #0D1606;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*Tipografía del parrafo*/
+p{
+    font-family: 'Pacifico', cursive;
+}
+
+.vineta{
+    list-style-type: none;
+}
+/*Diseño del footer*/
+footer {
+    background-color: #C2EFA0;
+    padding: 5px;
+    text-align: center;
+}
+footer span{
+    font-size: large;
+    color: #FFFFFF;
+    margin-right: 10px;
+    vertical-align: middle;
+}
